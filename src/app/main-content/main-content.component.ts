@@ -7,6 +7,7 @@ import { PieDrillComponent } from "../pie-drill/pie-drill.component";
 import { StocksComponent } from "../stocks/stocks.component";
 import { GasBillComponent } from "../gas-bill/gas-bill.component";
 import { WaterBillComponent } from "../water-bill/water-bill.component";
+import { IpmSavingsComponent } from "../ipm-savings/ipm-savings.component";
 
 
 @Component({
@@ -14,7 +15,7 @@ import { WaterBillComponent } from "../water-bill/water-bill.component";
     standalone: true,
     templateUrl: './main-content.component.html',
     styleUrl: './main-content.component.css',
-    imports: [MatCardModule, DrillDownComponent, BarComponent, PieComponent, PieDrillComponent, StocksComponent, GasBillComponent, WaterBillComponent]
+    imports: [MatCardModule, DrillDownComponent, BarComponent, PieComponent, PieDrillComponent, StocksComponent, GasBillComponent, WaterBillComponent, IpmSavingsComponent]
 })
 export class MainContentComponent {
 
